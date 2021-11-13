@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.13" apprev="18080" start="node4">
+  <panorama id="node4">
+    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" height="2266" levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2266">
+      <level height="2266" preload="0" predecode="0" width="2266"/>
+      <level height="1133" preload="0" predecode="0" width="1133"/>
+      <level height="566" preload="0" predecode="0" width="566"/>
+      <level height="283" preload="1" predecode="1" width="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-1.05839">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="270" fov="120"/>
+    </view>
+    <userdata author="" comment="" customnodeid="" source="" tags="6_Virtual Tour" nodeid="node4" description="" datetime="11/6/21 5:36 PM" copyright="" heading="-1.05839" latitude="" longitude="" title="affinity_1.1_2_3 Panorama" info="">
+      <mapcoords mapid="FloorPlan01" x_floorplan_percent="92.6" y="-1.08353" y_floorplan_percent="74.2588" x="1.27167"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" borderalpha="1" textalpha="1" border="1" textcolor="0x000000" borderradius="1" width="180" background="1" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" mode="0" handcursor="1"/>
+      <hotspot tilt="-0.41" pan="-347.92" target="60.1/-5.4/70.0" description="" url="{node3}" skinid="ht_node" id="Point01" title="Move Here"/>
+      <hotspot tilt="-0.16" pan="-308.1" target="" description="" url="images/Utah Valley University_Losee Center-3.png" skinid="ht_image" id="Point02" title="Here at UVU"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" enabled="1" zoomafteroutfov="20" zoomfov="20" blendtime="1" zoomoutpause="1" zoomout="0" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate nodefilter="" useanimation="0" enabled="1" returntohorizon="0.000" delay="5.00" noderandom="1" speed="0.000" nodedelay="0.00" startloaded="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" lockedmouse="0" contextvr="1" speedwheel="1" rubberband="0" invertwheel="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" height="2266" levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2266">
+      <level height="2266" preload="0" predecode="0" width="2266"/>
+      <level height="1133" preload="0" predecode="0" width="1133"/>
+      <level height="566" preload="0" predecode="0" width="566"/>
+      <level height="283" preload="1" predecode="1" width="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="25.7364">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="270" fov="120"/>
+    </view>
+    <userdata author="" comment="" customnodeid="" source="" tags="6_Virtual Tour" nodeid="node3" description="" datetime="11/6/21 5:32 PM" copyright="" heading="25.7364" latitude="" longitude="" title="affinity_1.1_2_3 Panorama" info="">
+      <mapcoords mapid="FloorPlan01" x_floorplan_percent="90.65" y="-0.913239" y_floorplan_percent="62.5882" x="1.24489"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" borderalpha="1" textalpha="1" border="1" textcolor="0x000000" borderradius="1" width="180" background="1" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" mode="0" handcursor="1"/>
+      <hotspot tilt="-0.74" pan="-297.21" target="53.5/-1.7/70.0" description="" url="{node2}" skinid="ht_node" id="Point01" title="Move Here"/>
+      <hotspot tilt="-1.72" pan="-153.72" target="-5.9/-7.4/70.0" description="" url="{node4}" skinid="ht_node" id="Point02" title=""/>
+      <hotspot tilt="-10.36" pan="-108.53" target="" description="" url="images/Utah Valley University_Losee Center.png" skinid="ht_image" id="Point03" title="Welcome to Losee Center"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" enabled="1" zoomafteroutfov="20" zoomfov="20" blendtime="1" zoomoutpause="1" zoomout="0" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate nodefilter="" useanimation="0" enabled="1" returntohorizon="0.000" delay="5.00" noderandom="1" speed="0.000" nodedelay="0.00" startloaded="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" lockedmouse="0" contextvr="1" speedwheel="1" rubberband="0" invertwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" height="2265" levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2265">
+      <level height="2265" preload="0" predecode="0" width="2265"/>
+      <level height="1132" preload="0" predecode="0" width="1132"/>
+      <level height="566" preload="0" predecode="0" width="566"/>
+      <level height="283" preload="1" predecode="1" width="283"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-60.7512">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="270" fov="120"/>
+    </view>
+    <userdata author="" comment="" customnodeid="" source="" tags="6_Virtual Tour" nodeid="node2" description="" datetime="11/6/21 5:28 PM" copyright="" heading="-60.7512" latitude="" longitude="" title="1.1_2_3 Panorama" info="">
+      <mapcoords mapid="FloorPlan01" x_floorplan_percent="83.25" y="-0.788269" y_floorplan_percent="54.0235" x="1.14326"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" borderalpha="1" textalpha="1" border="1" textcolor="0x000000" borderradius="1" width="180" background="1" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" mode="0" handcursor="1"/>
+      <hotspot tilt="-1.37" pan="-303.27" target="52.5/-3.8/70.0" description="" url="{node1}" skinid="ht_node" id="Point01" title="Move Here"/>
+      <hotspot tilt="-1.01" pan="-165.48" target="-156.5/-5.5/70.0" description="" url="{node3}" skinid="ht_node" id="Point02" title="Move Here"/>
+      <hotspot tilt="3.05" pan="-218.57" target="" description="" url="images/Utah Valley University_Losee Center-2.png" skinid="ht_image" id="Point03" title="Where You Can Find Us"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomin="0" enabled="1" zoomafteroutfov="20" zoomfov="20" blendtime="1" zoomoutpause="1" zoomout="0" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate nodefilter="" useanimation="0" enabled="1" returntohorizon="0.000" delay="5.00" noderandom="1" speed="0.000" nodedelay="0.00" startloaded="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" lockedmouse="0" contextvr="1" speedwheel="1" rubberband="0" invertwheel="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" height="2262" levelbiashidpi="1.000" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2262">
+      <level height="2262" preload="0" predecode="0" width="2262"/>
+      <level height="1131" preload="0" predecode="0" width="1131"/>
+      <level height="565" preload="0" predecode="0" width="565"/>
+      <level height="282" preload="1" predecode="1" width="282"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-131.717">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" pan="360" fovfisheye="360" scaletofit="1" fovstereographic="270" fov="120"/>
+    </view>
+    <userdata author="" comment="" customnodeid="" source="" tags="6_Virtual Tour" nodeid="node1" description="" datetime="11/6/21 5:24 PM" copyright="" heading="-131.717" latitude="" longitude="" title="affinity_1.1_2_3 Panorama" info="">
+      <mapcoords mapid="FloorPlan01" x_floorplan_percent="69.3" y="-0.758057" y_floorplan_percent="51.9529" x="0.951691"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" enabled="1" height="20" borderalpha="1" textalpha="1" border="1" textcolor="0x000000" borderradius="1" width="180" background="1" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" mode="0" handcursor="1"/>
+      <hotspot tilt="-1.97" pan="-219.99" target="-137.1/-3.7/70.0" description="" url="{node2}" skinid="ht_node" id="Point01" title="Move Here"/>
+      <hotspot tilt="-14.9" pan="-274.37" target="" description="" url="images/Utah Valley University_Losee Center-1.png" skinid="ht_image" id="Point02" title=""/>
+    </hotspots>
+    <media>
+      <video clickmode="2" loop="1" tiltsize="10.000" stretch="1.000" pan="-271.660" field="90.000" pansize="10.000" fov="22.550" nodechangekeep="0" rotz="-2.000" mode="3" id="Element01" handcursor="0" height="100" roty="19.000" ambientlevel="0.100" startmutedmobile="0" width="100" tilt="7.220" level="1.000" rotx="1.000">
+        <source url="media/Utah Valley University Campus Tour.mp4"/>
+      </video>
+    </media>
+    <transition zoomspeed="2" zoomin="0" enabled="1" zoomafteroutfov="20" zoomfov="20" blendtime="1" zoomoutpause="1" zoomout="0" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomafterinfov="90"/>
+    <autorotate nodefilter="" useanimation="0" enabled="1" returntohorizon="0.000" delay="5.00" noderandom="1" speed="0.000" nodedelay="0.00" startloaded="0"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control simulatemass="1" lockedkeyboard="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" lockedmouse="0" contextvr="1" speedwheel="1" rubberband="0" invertwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" customnodeid="" source="" tags="" nodeid="master" description="" datetime="" copyright="" heading="0" latitude="" longitude="" title="" info=""/>
+  </masternode>
+  <map height="2125" tileformat="jpg" floorplannorth="0" id="FloorPlan01" zoomlevels="1" type="file" bgcolor="rgba(255, 255, 255, 1)" width="2000" transparent="0" title=""/>
+</tour>
