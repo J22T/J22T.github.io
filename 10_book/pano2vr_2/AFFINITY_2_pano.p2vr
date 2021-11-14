@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="18080" version="6.1.13">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>../AFFINITY_2_pano.tiff</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>0</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>0</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>70</start>
+        <minunit>pixels</minunit>
+        <minpixels>2</minpixels>
+        <max>120</max>
+        <maxfovstereographic>270</maxfovstereographic>
+        <maxfovfisheye>360</maxfovfisheye>
+      </fov>
+      <flyinstart>
+        <pan>0</pan>
+        <tilt>-90</tilt>
+        <fov>170</fov>
+      </flyinstart>
+      <pannorth>142.067</pannorth>
+      <scaletofit>1</scaletofit>
+      <projection>rectilinear</projection>
+      <flyinprojection>stereo</flyinprojection>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2021-10-20T09:52:26</capturedatetime>
+      <tags>HDR</tags>
+      <latitude>40.59189255</latitude>
+      <altitude>-10000</altitude>
+      <usealtitude>0</usealtitude>
+      <longitude>-111.63124218</longitude>
+      <title>Spanish Fork Memorial Square</title>
+      <description>Memorial Square Park on Main Street in Spanish Fork Utah</description>
+      <author>Cam Stephens</author>
+      <datetime>11/13/21 9:15 AM</datetime>
+    </userdata>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <placeidcache>{"entries":[{"entry":{"geometry":{"location":{"lat":40.590736,"lng":-111.633281},"viewport":{"northeast":{"lat":40.59210428029149,"lng":-111.6325149197085},"southwest":{"lat":40.58940631970849,"lng":-111.6352128802915}}},"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png","name":"Alta's Rustler Lodge","url":"https://maps.google.com/?cid=3336615836596975810","vicinity":"10380 East Highway 210, Alta"},"placeid":"ChIJRX2dQvhwUocRwjhO3GwKTi4","timestamp":"2021-11-13T16:48:02"}]}</placeidcache>
+      <googleaccountid>113258589993292007426</googleaccountid>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate/>
+        <soundstransition/>
+        <flyintransition>
+          <enabled>1</enabled>
+        </flyintransition>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2267</tilesize>
+        <filename>pano.xml</filename>
+        <skinfile>simplex_v6_mod.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview>
+      <photoid>CAoSLEFGMVFpcE9DWnB0aUcwMzBOaGVtVGd2U3A4Qzd0VUxOT1FhVG1senJBempN</photoid>
+      <uploadtimestamp>2021-11-13T16:49:02</uploadtimestamp>
+      <panoffset>0</panoffset>
+      <placeids>ChIJRX2dQvhwUocRwjhO3GwKTi4</placeids>
+    </streetview>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
