@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18080" version="6.1.13">
+<pano2vrconfig version="6.1.13" rev="18080">
   <panorama>
     <id>node1</id>
     <input>
@@ -62,7 +62,7 @@
           <enabled>1</enabled>
           <filename>index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="fitcover">false</value>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
@@ -105,9 +105,42 @@
       <uploadtimestamp>2021-11-13T16:42:56</uploadtimestamp>
       <panoffset>0</panoffset>
       <placeids>ChIJRX2dQvhwUocRwjhO3GwKTi4</placeids>
+      <sharelink>https://www.google.com/maps/@40.5905221,-111.6338684,3a,75y,161.84h/data=!3m4!1e1!3m2!1sAF1QipM0kozBRDv4ZHumC14dHk4z46bxWyQ1oqfnP2iG!2e10</sharelink>
     </streetview>
     <streetviewproject/>
-    <sounds/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-298.95</pan>
+          <tilt>10.82</tilt>
+        </position>
+        <videorect>
+          <rotx>8</rotx>
+          <roty>0</roty>
+          <rotz>1</rotz>
+          <fov>30</fov>
+          <stretch>100</stretch>
+          <dimx>1024</dimx>
+          <dimy>684</dimy>
+        </videorect>
+        <type>image</type>
+        <id>Element01</id>
+        <filename>/Volumes/SD CARD/forthebook/32-ALTAS-RUSTLER-LODGE-1024x684.jpg</filename>
+        <mode>0</mode>
+        <nodechangekeep>0</nodechangekeep>
+        <locked>0</locked>
+        <pansize>10</pansize>
+        <tiltsize>10</tiltsize>
+        <fieldsize>90</fieldsize>
+        <ambientlevel>0</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>1</loop>
+        <copyfile>1</copyfile>
+        <clickmode>none</clickmode>
+        <handcursor>0</handcursor>
+      </sound>
+    </sounds>
     <animation>
       <title>Animation01</title>
     </animation>

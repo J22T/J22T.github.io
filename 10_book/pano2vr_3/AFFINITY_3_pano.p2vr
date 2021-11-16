@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18080" version="6.1.13">
+<pano2vrconfig version="6.1.13" rev="18080">
   <panorama>
     <id>node1</id>
     <input>
@@ -62,7 +62,7 @@
           <enabled>1</enabled>
           <filename>index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="fitcover">false</value>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
@@ -93,9 +93,42 @@
       <uploadtimestamp>2021-11-13T16:51:39</uploadtimestamp>
       <panoffset>0</panoffset>
       <placeids>ChIJxYIVNIFwUocRaBKDOorS2RE</placeids>
+      <sharelink>https://www.google.com/maps/@40.5920331,-111.6277654,3a,75y,198.89h/data=!3m4!1e1!3m2!1sAF1QipND-Ady2MHlnUeJEfYiWPjjVwhbqu4k-T9_Sy5G!2e10</sharelink>
     </streetview>
     <streetviewproject/>
-    <sounds/>
+    <sounds>
+      <sound>
+        <position>
+          <pan>-54.25</pan>
+          <tilt>9.83</tilt>
+        </position>
+        <videorect>
+          <rotx>12</rotx>
+          <roty>0</roty>
+          <rotz>0</rotz>
+          <fov>30</fov>
+          <stretch>100</stretch>
+          <dimx>1280</dimx>
+          <dimy>853</dimy>
+        </videorect>
+        <type>image</type>
+        <id>Element01</id>
+        <filename>/Volumes/SD CARD/forthebook/alta-ski-area.jpeg</filename>
+        <mode>0</mode>
+        <nodechangekeep>0</nodechangekeep>
+        <locked>0</locked>
+        <pansize>10</pansize>
+        <tiltsize>10</tiltsize>
+        <fieldsize>90</fieldsize>
+        <ambientlevel>0</ambientlevel>
+        <startmutedmobile>0</startmutedmobile>
+        <level>1</level>
+        <loop>1</loop>
+        <copyfile>1</copyfile>
+        <clickmode>none</clickmode>
+        <handcursor>0</handcursor>
+      </sound>
+    </sounds>
     <animation>
       <title>Animation01</title>
     </animation>

@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1" appversion="6.1.13" apprev="18080">
-  <input levelingpitch="0" overlap="1" height="2273" levelbias="0.400" width="2273" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0">
-    <level preload="0" height="2273" predecode="0" width="2273"/>
-    <level preload="0" height="1136" predecode="0" width="1136"/>
-    <level preload="0" height="568" predecode="0" width="568"/>
-    <level preload="1" height="284" predecode="1" width="284"/>
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2273" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" overlap="1" levelingpitch="0" height="2273" leveltilesize="510">
+    <level width="2273" predecode="0" preload="0" height="2273"/>
+    <level width="1136" predecode="0" preload="0" height="1136"/>
+    <level width="568" predecode="0" preload="0" height="568"/>
+    <level width="284" predecode="1" preload="1" height="284"/>
     <preview color="0x808080" strip="1"/>
   </input>
   <view pannorth="161.844" fovmode="0">
-    <start pan="0" fov="70" tilt="0" projection="4"/>
-    <flyin pan="0" fov="170" tilt="-90" projection="9"/>
-    <min pan="0" tilt="-90" fovpixel="2"/>
-    <max scaletofit="1" pan="360" fov="120" tilt="90" fovstereographic="270" fovfisheye="360"/>
+    <start tilt="0" fov="70" projection="4" pan="0"/>
+    <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max tilt="90" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270" pan="360"/>
   </view>
-  <userdata info="" nodeid="node1" copyright="" heading="161.844" datetime="11/13/21 9:02 AM" description="Memorial Square Park on Main Street in Spanish Fork Utah" latitude="40.59052213" customnodeid="" tags="HDR" author="Cam Stephens" title="Spanish Fork Memorial Square" comment="" source="" longitude="-111.63386840"/>
-  <hotspots height="20" width="180" wordwrap="1">
-    <label textcolor="0x000000" background="1" textalpha="1" borderradius="1" height="20" width="180" enabled="1" borderalpha="1" border="1" bordercolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" wordwrap="1"/>
-    <polystyle mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
+  <userdata latitude="40.59052213" nodeid="node1" info="" datetime="11/13/21 9:02 AM" source="" copyright="" comment="" description="Memorial Square Park on Main Street in Spanish Fork Utah" customnodeid="" author="Cam Stephens" longitude="-111.63386840" title="Spanish Fork Memorial Square" heading="161.844" streetviewlink="https://www.google.com/maps/@40.5905221,-111.6338684,3a,75y,161.84h/data=!3m4!1e1!3m2!1sAF1QipM0kozBRDv4ZHumC14dHk4z46bxWyQ1oqfnP2iG!2e10" tags="HDR"/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" backgroundalpha="1" background="1" borderradius="1" height="20" textalpha="1" wordwrap="1" borderalpha="1"/>
+    <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
   </hotspots>
-  <media/>
-  <transition blendcolor="0x000000" zoomin="0" zoomout="0" type="crossdissolve" softedge="0" enabled="1" zoomoutpause="1" zoomafterinfov="90" zoomafteroutfov="20" zoomfov="20" zoomspeed="2" blendtime="1"/>
+  <media>
+    <image tilt="10.820" id="Element01" fov="30.000" width="1024" clickmode="0" rotz="1.000" pan="-298.950" height="684" handcursor="0" roty="0.000" rotx="8.000" stretch="1.000">
+      <source url="media/32-ALTAS-RUSTLER-LODGE-1024x684.jpg"/>
+    </image>
+  </media>
+  <transition zoomafteroutfov="20" zoomout="0" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomafterinfov="90" zoomin="0" zoomspeed="2" zoomfov="20"/>
   <flyintransition enabled="1" speed="2.00"/>
   <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-  <control lockedkeyboard="0" contextvr="1" lockedmouse="0" lockedwheel="0" invertwheel="0" invertcontrol="1" simulatemass="1" lockedkeyboardzoom="0" speedwheel="1" contextfullscreen="1" sensitivity="8" contextprojections="0" rubberband="0" dblclickfullscreen="0"/>
+  <control rubberband="0" lockedwheel="0" invertcontrol="1" contextvr="1" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" contextprojections="0" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
 </panorama>
