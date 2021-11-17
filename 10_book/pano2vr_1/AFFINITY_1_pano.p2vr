@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="6.1.13" rev="18080">
+<pano2vrconfig rev="18080" version="6.1.13">
   <panorama>
     <id>node1</id>
     <input>
@@ -85,7 +85,7 @@
         <webvr/>
         <tilesize>2273</tilesize>
         <filename>pano.xml</filename>
-        <skinfile>simplex_v6_mod.ggsk</skinfile>
+        <skinfile>simplex_v6.ggsk</skinfile>
         <skinconfiguration/>
         <skintablesconfiguration/>
         <skincolorsconfiguration>

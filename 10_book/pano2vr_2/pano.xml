@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama apprev="18080" id="node1" appversion="6.1.13">
-  <input width="2267" height="2267" levelingpitch="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" levelingroll="0">
-    <level width="2267" height="2267" predecode="0" preload="0"/>
-    <level width="1133" height="1133" predecode="0" preload="0"/>
-    <level width="566" height="566" predecode="0" preload="0"/>
-    <level width="283" height="283" predecode="1" preload="1"/>
-    <preview strip="1" color="0x808080"/>
+  <input overlap="1" levelbiashidpi="1.000" levelingroll="0" width="2267" levelbias="0.400" height="2267" levelingpitch="0" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <level width="2267" predecode="0" height="2267" preload="0"/>
+    <level width="1133" predecode="0" height="1133" preload="0"/>
+    <level width="566" predecode="0" height="566" preload="0"/>
+    <level width="283" predecode="1" height="283" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
   <view pannorth="142.067" fovmode="0">
-    <start projection="4" fov="70" pan="0" tilt="0"/>
-    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-    <min pan="0" fovpixel="2" tilt="-90"/>
-    <max fovstereographic="270" scaletofit="1" fov="120" pan="360" fovfisheye="360" tilt="90"/>
+    <start tilt="0" pan="0" fov="70" projection="4"/>
+    <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max fovstereographic="270" tilt="90" scaletofit="1" pan="360" fov="120" fovfisheye="360"/>
   </view>
-  <userdata streetviewlink="https://www.google.com/maps/@40.5918925,-111.6312422,3a,75y,142.07h/data=!3m4!1e1!3m2!1sAF1QipOCZptiG030NhemTgvSp8C7tULNOQaTmlzrAzjM!2e10" longitude="-111.63124218" author="Cam Stephens" datetime="11/13/21 9:15 AM" comment="" heading="142.067" info="" latitude="40.59189255" nodeid="node1" copyright="" description="Memorial Square Park on Main Street in Spanish Fork Utah" title="Spanish Fork Memorial Square" tags="HDR" source="" customnodeid=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label width="180" bordercolor="0x000000" height="20" textcolor="0x000000" borderalpha="1" backgroundalpha="1" enabled="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" border="1" background="1" textalpha="1"/>
-    <polystyle mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff"/>
+  <userdata longitude="-111.63124218" copyright="" info="" title="Spanish Fork Memorial Square" comment="" customnodeid="" datetime="11/13/21 9:15 AM" source="" tags="HDR" heading="142.067" latitude="40.59189255" author="Cam Stephens" nodeid="node1" description="Memorial Square Park on Main Street in Spanish Fork Utah" streetviewlink="https://www.google.com/maps/@40.5918925,-111.6312422,3a,75y,142.07h/data=!3m4!1e1!3m2!1sAF1QipOCZptiG030NhemTgvSp8C7tULNOQaTmlzrAzjM!2e10"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label wordwrap="1" textcolor="0x000000" width="180" bordercolor="0x000000" borderradius="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textalpha="1" border="1" enabled="1" borderalpha="1"/>
+    <polystyle handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
   </hotspots>
   <media>
-    <image width="1200" stretch="1.000" height="800" handcursor="0" id="Element01" clickmode="0" fov="30.000" pan="-13.900" rotx="1.000" rotz="0.000" roty="0.000" tilt="7.910">
+    <image rotz="0.000" handcursor="0" id="Element01" roty="0.000" tilt="7.910" width="1200" pan="-13.900" stretch="1.000" fov="30.000" rotx="1.000" height="800" clickmode="0">
       <source url="media/Alta_FB_Rocko-Menzyk-Photography.jpg"/>
     </image>
   </media>
-  <transition softedge="0" blendcolor="0x000000" type="crossdissolve" zoomin="0" enabled="1" blendtime="1" zoomafterinfov="90" zoomfov="20" zoomout="0" zoomafteroutfov="20" zoomspeed="2" zoomoutpause="1"/>
-  <flyintransition enabled="1" speed="2.00"/>
+  <transition type="crossdissolve" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" blendtime="1" zoomout="0" zoomafterinfov="90" zoomspeed="2" zoomin="0" zoomoutpause="1" zoomfov="20" enabled="1"/>
+  <flyintransition speed="2.00" enabled="1"/>
   <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-  <control rubberband="0" lockedmouse="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" contextvr="1" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedkeyboardzoom="0" contextfullscreen="1" sensitivity="8" lockedwheel="0" invertwheel="0"/>
+  <control rubberband="0" lockedmouse="0" invertcontrol="1" lockedkeyboardzoom="0" contextprojections="0" lockedkeyboard="0" speedwheel="1" dblclickfullscreen="0" invertwheel="0" sensitivity="8" contextfullscreen="1" simulatemass="1" lockedwheel="0" contextvr="1"/>
 </panorama>
